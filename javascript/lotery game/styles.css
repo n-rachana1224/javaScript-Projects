@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(to left,blue,rgb(169, 223, 245));
+    margin: 0px;
+    padding:0px;
+    font-size: 50px;  
+}
+table{
+    background-color: white;
+    border-spacing: 20px;
+    margin:auto;
+    padding: 0%;
+    width: 60%;
+    height: 80vh;
+}
+table td{
+    background-color: rgb(160, 125, 194);
+    font-size: 40px;
+}
+#btn{
+    background-image: radial-gradient(rgb(179, 25, 51),orange);
+    border-radius: 10px;
+    font-size: 60px;
+}
+#btn:hover{
+    font-size: 80px;
+    background-image: linear-gradient(rgb(179, 25, 51),orange);
+}
+#result_num{
+    color:rgb(11, 12, 11);
+    font-style: italic;
+    font-size: 100px;
+}

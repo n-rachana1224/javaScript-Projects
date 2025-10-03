@@ -1,0 +1,55 @@
+body{
+    background-image: radial-gradient(skyblue,blue);
+    background-size: cover;
+    background-position: center;
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+input{
+    border:black;
+    background-image: linear-gradient(to right,pink,orange);
+    width:400px;
+    height:50px;
+    text-align: center;
+    border-radius: 10px;
+}
+#cal{
+    background-image: linear-gradient(red,green);
+    width:400px;
+    height:60px;
+    font-size: 20px;
+    color: black;
+    border-radius: 10px;
+   
+}
+input::placeholder {
+    color: darkblue;
+    font-size: 14px;
+    font-size: 20px;
+}
+input[type="text"] {
+    font-size: 18px;  
+    color: black;
+}
+#reset{
+    background-color: rgb(202, 205, 50);
+     width:400px;
+    height:60px;
+    font-size: 20px;
+    color: black;
+    border-radius: 10px;
+   
+}
+h1{
+    font-size: 50px;
+    font-style: italic;
+}
+#result{
+    color: rgb(155, 10, 10);
+    font-size: 40px;
+
+}

@@ -1,0 +1,74 @@
+body{
+    background-image: radial-gradient(circle ,rgb(30, 131, 190),rgb(13, 182, 204),rgb(218, 24, 57));
+}
+h1{
+    text-align: center;
+    margin:50px;
+    padding:50px;
+    color:rgb(97, 8, 119);
+    font-family:'Times New Roman', Times, serif;
+}
+form{
+    margin: 0 auto;
+    width:90%;
+    max-width: 600px;
+    padding:auto;
+    height:70px;
+    background-color: rgb(135, 233, 212);
+    align-items: center;
+    display: flex;
+}
+form input{
+    flex:1;
+    height:100%;
+    background-color: rgb(228, 224, 10);
+    color:black;
+    padding:0 20px;
+    font-size: 20px;
+    border:0;
+    outline:0;
+}
+::placeholder{
+    color:black;
+}
+form button{
+    padding: 0 40px;
+    background-color: rgb(223, 120, 197);
+    height:100%;
+    border-radius: 8px;
+    font-size: 20px;
+    border:0;
+    outline:0;
+    color:rgb(155, 9, 9)
+}
+form input:hover{
+    background-color: transparent;
+    color:rgb(86, 11, 156);
+}
+form button:hover{
+    font-size: 40px;
+    
+}
+#load{
+    background-color: rgb(255, 0, 179);
+    color:rgb(24, 2, 2);
+    border:0;
+    outline:0;
+    padding: 10px 20px;
+    margin:10px auto 100px;
+    display:none;
+
+}
+#result{
+    width:80%;
+    margin:100px auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:2px;
+}
+#result img{
+    width:80%;
+    height:80%;
+    object-fit: cover;
+    border-radius: 5px;
+}
